@@ -1,0 +1,42 @@
+
+.skill_wrapper {
+    background-color: var(--Dark3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skill_bar {
+    width: 100%;
+    position: relative;
+    background-color: var(--lightPurple);
+    height: 5px;
+    border-radius: 50px;
+    z-index: 9999;
+}
+
+.skill_bar_percentage {
+    background-color: var(--purple);
+    width: 50%;
+    position: absolute;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    height: 5px;
+    border-radius: 50px;
+}
+
+.skill_title span {
+    color: #fff;
+}
+.skill_title {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 576px){
+    .skill_wrapper {
+        flex-direction: column;
+    }
+    .skill_wrapper .Frontend_skill, .skill_wrapper .backend_skill {
+        width: 100% !important;
+    }
+}

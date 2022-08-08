@@ -1,0 +1,21 @@
+
+
+.certificate_container {
+    background-color: #132347;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 20px;
+}
+.certificate_container p {
+  font-weight: 300;
+  line-height: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 576px){
+    .single_certificate {
+        width: 100%;
+    }
+}

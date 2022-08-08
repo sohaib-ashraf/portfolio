@@ -1,0 +1,27 @@
+
+
+.single_info_box {
+    background-color: var(--Dark3);
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid var(--purple);
+    margin-bottom: 25px;
+    transition: .7s;
+}
+
+.single_info_box p {
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: .9rem;
+    margin-bottom: 0;
+}
+.single_info_box h6 {
+    font-size: 1.1rem;
+
+}
+
+
+
+.single_info_box:hover {
+    transform: translateY(-15px);
+}

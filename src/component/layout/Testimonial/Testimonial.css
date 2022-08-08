@@ -1,0 +1,46 @@
+
+
+.single_testimonial {
+    padding: 30px;
+}
+
+.single_testimonial p {
+    margin-bottom: 15px;
+}
+
+.single_testimonial h6 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--purple);
+} 
+.testimonial-top-content img {
+    border-radius: 5px;
+}
+
+
+.single_testimonial .title {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.next-project-desc {
+    font-weight: 300;
+    width: 80%;
+}
+
+#testimonial h6 , span.about__icon{
+    color: var(--purple);
+}
+.testimonial-desc p{
+    font-weight: 300;
+
+}
+
+@media only screen and (max-width: 992px){
+
+.what_client_heading {
+    margin-top: 3rem;
+}
+
+}

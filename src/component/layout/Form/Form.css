@@ -1,0 +1,28 @@
+
+
+.form {
+    width: 100%;
+    background-color: var(--Dark3);
+    padding: 30px;
+    border-radius: 5px;
+}
+.form_input input,.form_input textarea {
+    width: 100%;
+    padding: 7px 15px;
+    color: #fff;
+    margin-bottom: 15px;
+    background-color: #102048;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: .8rem;
+}
+
+
+@media only screen and (max-width: 992px){
+
+    .form {
+        margin-top: 3rem;
+    }
+
+}

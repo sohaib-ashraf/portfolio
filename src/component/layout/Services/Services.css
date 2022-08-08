@@ -1,0 +1,33 @@
+
+
+.single_service {
+    background-color: var(--Dark3);
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid var(--purple);
+    transition: .7s;
+}
+
+.single_service:hover {
+    transform: translateY(-15px);
+}
+
+.service_icon svg {
+    color: var(--purple);
+    font-size: 2.5rem;
+}
+
+.service_top h6 {
+    color: var(--purple);
+    margin-bottom: 15px;
+}
+
+.single_service h2 {
+    font-size: 1.4rem;
+    margin: 15px 0; 
+}
+
+.single_service p {
+    font-weight: 300;
+    line-height: 30px;
+}

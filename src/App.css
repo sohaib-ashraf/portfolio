@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Rubik:wght@300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+/* ----------- BASE STYLE -------- */
+
+:root {
+  --purple: #7865ff;
+  --Dark1: #0d1a30;
+  --Dark2: #0e1b31;
+  --Dark3: #132347;
+  --lightPurple: rgb(193, 206, 255);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   background-color: #0e1b31 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 1.3rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  color: #fff;
+}
+
+h1,h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  opacity: 75%;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  color: unset;
+  font-family: "Lato", sans-serif;
+}
+a:hover {
+  color: unset;
+
+}
+
+.header__shrink {
+  background-color: #132347;
+  box-shadow: 2px 2px 4px -2px ;
+}
+section, footer {
+  padding: 60px 0;
+}
+
+svg {
+  fill: var(--purple);
+}
+
+.btn {
+  background-color: var(--purple);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: .9rem;
+  padding: 7px 25px;
+}
+.btn:hover, .btn:active,.btn:focus {
+  color: #fff;
+  background-color: var(--purple);
+}
+
+/* -----------CUSTOM SCROLL -------- */
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 2em;
+  background-color:var(--lightPurple) ;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background-color: #282f4e;
+}
+
+@media only screen and (max-width: 576px){
+
+  section, footer {
+    padding: 40px 0;
+}
+
+}
+
+@media only screen and (max-width: 992px){
+
+  .nav__list {
+    padding-top: 3rem;
+  }
+  
+}
+
