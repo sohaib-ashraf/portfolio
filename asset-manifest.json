@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.58f01181.css",
-    "main.js": "/portfolio/static/js/main.722c54e0.js",
+    "main.css": "/portfolio/static/css/main.2c109630.css",
+    "main.js": "/portfolio/static/js/main.7062afe5.js",
     "static/media/remixicon.svg?t=1590207869815": "/portfolio/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/sushi.png": "/portfolio/static/media/sushi.5f4e0e72b457e412e97a.png",
     "static/media/HeroImg.png": "/portfolio/static/media/HeroImg.d5c9ab832f5973127bea.png",
@@ -21,17 +21,18 @@
     "static/media/remixicon.woff?t=1590207869815": "/portfolio/static/media/remixicon.8d09fa11700ed63cf96e.woff",
     "static/media/experience.png": "/portfolio/static/media/experience.2720b2b37aeee905b44d.png",
     "static/media/remixicon.woff2?t=1590207869815": "/portfolio/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
-    "static/media/client-1.jpg": "/portfolio/static/media/client-1.dee36fee444ff6ce7df6.jpg",
+    "static/media/client-2.jpg": "/portfolio/static/media/client-2.9597208f9ad6f76ac40e.jpg",
+    "static/media/client-1.jpg": "/portfolio/static/media/client-1.53bd2e8c9bdb1ea85419.jpg",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
-    "main.58f01181.css.map": "/portfolio/static/css/main.58f01181.css.map",
-    "main.722c54e0.js.map": "/portfolio/static/js/main.722c54e0.js.map"
+    "main.2c109630.css.map": "/portfolio/static/css/main.2c109630.css.map",
+    "main.7062afe5.js.map": "/portfolio/static/js/main.7062afe5.js.map"
   },
   "entrypoints": [
-    "static/css/main.58f01181.css",
-    "static/js/main.722c54e0.js"
+    "static/css/main.2c109630.css",
+    "static/js/main.7062afe5.js"
   ]
 }
